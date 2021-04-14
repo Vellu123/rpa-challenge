@@ -15,7 +15,8 @@ def main():
     robot.run(
         "robot/main.robot",
         outputdir=output_dir,
-        loglevel=args.loglevel
+        loglevel=args.loglevel,
+        dryrun=args.dryrun,
     )
 
 
@@ -30,6 +31,12 @@ def parse_arguments():
         "-gd",
         help="Download Gecko Driver",
         action="store_true"
+    )
+    parser.add_argument(
+        "--dryrun",
+        help="Dryrun robot",
+        action="store_true",
+        default=False
     )
     return parser.parse_args()
 
