@@ -1,6 +1,9 @@
 # rpa-challenge
 An RPA robot for doing the RPA Challenge http://www.rpachallenge.com/
 
+## Note
+Support only Firefox browsers
+
 ## Usage
 1. Clone repo
 2. `cd rpa-challenge/`
