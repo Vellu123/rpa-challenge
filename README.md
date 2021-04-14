@@ -2,7 +2,8 @@
 An RPA robot for doing the RPA Challenge http://www.rpachallenge.com/
 
 ## Note
-Support only Firefox browsers
+* Support only Firefox browsers
+* Only Challenge 1 present at the moment 
 
 ## Usage
 1. Clone repo
