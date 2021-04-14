@@ -42,8 +42,8 @@ def parse_arguments():
 
 
 def download_gecko_driver():
-    gdd = GeckoDriverManager()
-    gdd.download_and_install()
+    gd = GeckoDriverManager()
+    gd.download_and_install()
 
 
 if __name__ == "__main__":
